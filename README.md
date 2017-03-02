@@ -148,4 +148,4 @@ var bar = Bar().init(config, function(ele) {
 查看更多样例，可访问[demo](http://139.129.132.196/Bar/)。
 如果想尝试移动端，可以扫描下方二维码进行访问
 
-[QCode](https://image.hduzplus.xyz/image/1488468120011.png)
+![QCode](https://image.hduzplus.xyz/image/1488468120011.png)
