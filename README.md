@@ -8,7 +8,7 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8"/>
+  <meta charset="utf-8"/>
   <script src="Bar.js"></script>
 </head>
 <body>
@@ -21,7 +21,7 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8"/>
+  <meta charset="utf-8"/>
   <script src="Bar.js"></script>
   <style>
   #bar {
@@ -41,7 +41,7 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8"/>
+  <meta charset="utf-8"/>
   <script src="Bar.js"></script>
   <style>
   #bar {
