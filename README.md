@@ -90,7 +90,7 @@ bar.setData(15);
 ```
 
 ### 4. 预览
-![pic](https://image.hduzplus.xyz/image/1488468427582.png)
+![pic](https://zjhch123.github.io/Bar.js/1488468427582.png)
 
 ## 2. 配置项解读
 ```
