@@ -119,7 +119,8 @@ afterChange: function(data) {} // 用户在拖动Bar之后会调用的函数。�
 
 使用者可以自定义是否要对某些浏览器提供支持。
 
-创建Bar：
+> 创建Bar：
+
 ```javascript
 var bar = Bar().init(config) // config为配置属性, 可参考上面的2
 
@@ -134,7 +135,8 @@ var bar = Bar().init(config) // config为配置属性, 可参考上面的2
  bar.getData(); // ret 70
 ```
 
-创建Bar时也提供了回调函数
+> 创建Bar时也提供了回调函数
+
 ```javascript
 var bar = Bar().init(config, function(ele) {
 	/*
