@@ -34,7 +34,7 @@ function Bar() {
                 var tailColor = config["tailColor"] || "blue";
                 var pointShow = config["point"] || "hidden";
                 var pointHeight = config["pointHeight"] || "3px";
-                var pointBackgroundColor = config["pointBackgroundColor"] || "white";
+                var pointColor = config["pointColor"] || "white";
                 var rotate = config["rotate"] || "false";
                 var beforeChange = config["beforeChange"] || new Function();
                 var changing = config["changing"] || new Function();
@@ -75,7 +75,7 @@ function Bar() {
                     head.appendChild(point);
                     point.style.height = pointHeight;
                     point.style.width = pointHeight;
-                    point.style.backgroundColor = pointBackgroundColor;
+                    point.style.backgroundColor = pointColor;
                 }
 
                 ball.appendChild(head);

@@ -106,6 +106,7 @@ tailColor: "blue",  // 表示拖动区域的背景颜色，可填入rgb或者颜
 rotate: "false",    // 表示是否需要90度旋转。可填入"true"或"false"，默认为"false"
 control: "true",    // 表示用户是否可以自由拖动Bar，可填入"true"或"false"，默认为"true"
 point: "show",      // 表示是否显示可拖动元素上的小白点。可填入"show"或"hidden"，默认为"hidden"
+pointColor: "red",  // 表示小白点颜色，默认是红色。可填入rgb或者颜色的英文 
 pointHeight: "6px", // 表示可拖动元素上的小白点的高度。小白点为圆形，所以不提供设置宽度的配置
 beforeChange: function(data) {}, // 用户在拖动Bar之前会调用的函数。参数为当前Bar的百分比数值
 changing: function(data) {}, // 用户在拖动Bar时会调用的函数。参数为拖动时的Bar的百分比数值
@@ -139,11 +140,11 @@ var bar = Bar().init(config) // config为配置属性, 可参考上面的2
 
 ```javascript
 var bar = Bar().init(config, function(ele) {
-	/*
-	 * ele拥有和bar一样的方法。
-	 */
-	 ele.setData(15);
-	 ele.getData(); // ret 15
+  /*
+   * ele拥有和bar一样的方法。
+   */
+   ele.setData(15);
+   ele.getData(); // ret 15
 })
 ```
 
